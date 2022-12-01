@@ -1,0 +1,266 @@
+
+.navbar {
+    background-color:transparent;
+    text-align: center; 
+  }
+  
+  
+  .nav-item {
+    display: inline;
+    padding: 0%;
+    border:solid white 3px;
+    font-family: Arial;
+  }
+  
+  .nav-item a {
+  color: white;
+    padding: 10%;
+    
+  }
+  
+  textarea{
+  position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: Arial;
+  }
+  
+  
+  body {
+    background-color: floralwhite;
+    font-family: Arial;
+  }
+  
+  form {
+     text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+    color:black;
+    border:solid black 3px;
+  }
+  
+  form hr {
+    width: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: beige;
+    border-radius: 40px;
+    opacity: 99%;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  footer img{
+  height: 50px;
+  padding-left: 300px;
+    padding-bottom: 10px;
+  }
+  
+  footer {
+  position: fixed;
+    bottom:0 ;
+    width:90%;
+    text-align: center;
+    left: 10px;
+  }
+  
+  body {
+    background-image: url(/Images/backgroundimg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  /* <<<CSS for Menu>>> */
+  
+  /* <Code commented out below is before I went to office hours and learned about dividing sections. I found this a lot easier to control> */
+  
+  /* .shrimpscampi{
+  height: -50%; 
+    padding-top: 150px;
+    padding-left: 400px;
+  } */
+  
+  /* .item-label{
+    padding-left: 400px;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    width: 250px;
+    background-color: darkslategray;
+  }
+  
+  .description{
+    padding-left: 400px;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-size: 15px;
+    word-wrap: break-word;
+    width: 250px;
+    background-color: darkslategray;
+  } */
+  
+  .menu-container{
+    background-color: transparent ;
+    height: 1100px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+  
+  }
+  
+  .Appetizers{
+    background-color: beige;
+  opacity: 98%;
+  }
+  
+  .Entrees{
+    background-color: beige;
+    opacity: 98%;
+  }
+  
+  .Desserts{
+    background-color:beige ;
+    opacity: 98%;
+  }
+  .menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+  }
+  
+  /* This was the previous code I used, a student help me figure out to adjust my padding a little bit and helped explain the usage of flex a little better. Display flex makes it so everything inside the div takes only the amount of space it needs to, while flex direction:column makes it all stack vertically.
+  .menu-item{
+    background-color: grey;
+    height: 200px;
+    width: 300px;
+    padding: 100px;
+    text-align: center;
+  } */
+  
+  
+  .image1{
+    background-image: url(/Images/antipasto.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+  
+  }
+  
+  .image2{
+    background-image: url(/Images/shrimpscampi.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+  }
+  
+  .image3{
+    background-image: url(/Images/fetuccine.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+    
+  }
+  
+  .image4{
+    background-image: url(/Images/Lasagna.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+    
+  }
+  
+  .image5{
+    background-image: url(/Images/Cannoli.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+    
+  }
+  
+  .image6{
+    background-image: url(/Images/Tiramisu.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: solid black  4px;
+    
+  }
+  
+  .item-label{
+    font-size: 25px;
+    
+  }
+  
+  .imageA{
+    background-image: url(/Images/staffcandid.jpg);
+      background-size: cover;
+    height: 270px;
+    width: 270px;
+    border: solid black  4px;
+  }
+  .imageB{
+    background-image: url(/Images/staffworking.jpg);
+      background-size: cover;
+    height: 270px;
+    width: 270px;
+    border: solid black  4px;
+  }
+  .imageC{
+     background-image: url(/Images/outsiderestaurant.webp);
+      background-size: cover;
+    height: 270px;
+    width: 270px;
+    border: solid black  4px;
+  }
+  
+  .imageD{
+     background-image: url(/Images/insiderestaurant.jpg);
+      background-size: cover;
+    height: 270px;
+    width: 270px;
+    border: solid black  4px;
+  }
+  
+  .imageE{
+     background-image: url(/Images/luxury.jpg);
+      background-size: cover;
+    height: 250px;
+    width: 250px;
+    border: solid black  4px;
+  }
+  
+  /* .imageF{
+     background-image: url(/Images/michelin.png);
+      background-size: cover;
+    height: 200px;
+    width: 200px;
+    
+  } */
